@@ -109,6 +109,21 @@ minecraft-server/
 
 ---
 
+## Documentation
+
+| Step | Doc |
+|---|---|
+| 01 — Debian base | [docs/01-debian.md](docs/01-debian.md) |
+| 02 — Docker | [docs/02-docker.md](docs/02-docker.md) |
+| 03 — Portainer | [docs/03-portainer.md](docs/03-portainer.md) |
+| 04 — Crafty Controller | [docs/04-crafty.md](docs/04-crafty.md) |
+| 05 — Tailscale | [docs/05-tailscale.md](docs/05-tailscale.md) |
+| 06 — Playit.gg | [docs/06-playit.md](docs/06-playit.md) |
+| 07 — Cloudflare | [docs/07-cloudflare.md](docs/07-cloudflare.md) |
+| 08 — GeyserMC + Floodgate | [docs/08-geyser-floodgate.md](docs/08-geyser-floodgate.md) |
+
+---
+
 ## Quick Start
 
 ```bash
@@ -267,6 +282,21 @@ minecraft-server/
     ├── 06-playit.sh
     └── install-all.sh       # Ejecuta todos los scripts en orden
 ```
+
+---
+
+## Documentación
+
+| Paso | Archivo |
+|---|---|
+| 01 — Debian base | [docs/es/01-debian.md](docs/es/01-debian.md) |
+| 02 — Docker | [docs/es/02-docker.md](docs/es/02-docker.md) |
+| 03 — Portainer | [docs/es/03-portainer.md](docs/es/03-portainer.md) |
+| 04 — Crafty Controller | [docs/es/04-crafty.md](docs/es/04-crafty.md) |
+| 05 — Tailscale | [docs/es/05-tailscale.md](docs/es/05-tailscale.md) |
+| 06 — Playit.gg | [docs/es/06-playit.md](docs/es/06-playit.md) |
+| 07 — Cloudflare | [docs/es/07-cloudflare.md](docs/es/07-cloudflare.md) |
+| 08 — GeyserMC + Floodgate | [docs/es/08-geyser-floodgate.md](docs/es/08-geyser-floodgate.md) |
 
 ---
 
