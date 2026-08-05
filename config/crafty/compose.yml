@@ -1,0 +1,22 @@
+# Crafty Controller — Docker Compose
+# Place this file at /srv/minecraft/crafty/compose.yml
+
+services:
+  crafty:
+    image: registry.gitlab.com/crafty-controller/crafty-4:latest
+    container_name: crafty
+    restart: always
+    environment:
+      - TZ=YOUR_TIMEZONE
+    ports:
+      - "8000:8000"
+      - "8443:8443"
+      - "8123:8123"
+      - "19132:19132/udp"
+      - "25565:25565"
+    volumes:
+      - /srv/minecraft/crafty/backups:/crafty/backups
+      - /srv/minecraft/crafty/logs:/crafty/logs
+      - /srv/minecraft/crafty/servers:/crafty/servers
+      - /srv/minecraft/crafty/config:/crafty/conf
+      - /srv/minecraft/crafty/import:/crafty/import

@@ -1,0 +1,16 @@
+# /etc/network/interfaces
+
+source /etc/network/interfaces.d/*
+
+# Loopback
+auto lo
+iface lo inet loopback
+
+# WiFi interface with static IP
+auto YOUR_WIFI_INTERFACE
+iface YOUR_WIFI_INTERFACE inet static
+    address SERVER_IP
+    netmask 255.255.255.0
+    gateway GATEWAY_IP
+    wpa-ssid YOUR_SSID
+    wpa-psk YOUR_WIFI_PASSWORD
